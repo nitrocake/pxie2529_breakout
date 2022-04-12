@@ -1,0 +1,244 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L spels:connector-25x4 J1
+U 4 1 62548BC7
+P 5750 3950
+F 0 "J1" H 5708 5375 50  0000 C CNN
+F 1 "connector-25x4" H 5650 5300 50  0001 C CNN
+F 2 "spels:AMP-HDI-100-Female" H 5708 5284 50  0000 C CNN
+F 3 "" H 5650 5350 50  0001 C CNN
+	4    5750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L spels:connector-25x4 J1
+U 3 1 6254AC3D
+P 4250 3950
+F 0 "J1" H 4208 5375 50  0000 C CNN
+F 1 "connector-25x4" H 4150 5300 50  0001 C CNN
+F 2 "spels:AMP-HDI-100-Female" H 4208 5284 50  0000 C CNN
+F 3 "" H 4150 5350 50  0001 C CNN
+	3    4250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L spels:connector-25x4 J1
+U 2 1 6254B205
+P 2700 3950
+F 0 "J1" H 2658 5375 50  0000 C CNN
+F 1 "connector-25x4" H 2600 5300 50  0001 C CNN
+F 2 "spels:AMP-HDI-100-Female" H 2658 5284 50  0000 C CNN
+F 3 "" H 2600 5350 50  0001 C CNN
+	2    2700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L spels:connector-25x4 J1
+U 1 1 6254D5A7
+P 1400 3950
+F 0 "J1" H 1358 5375 50  0000 C CNN
+F 1 "connector-25x4" H 1300 5300 50  0001 C CNN
+F 2 "spels:AMP-HDI-100-Female" H 1358 5284 50  0000 C CNN
+F 3 "" H 1300 5350 50  0001 C CNN
+	1    1400 3950
+	1    0    0    -1  
+$EndComp
+Text Label 1600 2750 0    50   ~ 0
+TRIGOUT
+NoConn ~ 1600 2850
+Text Label 2900 2750 0    50   ~ 0
+GND
+Text Label 4450 2750 0    50   ~ 0
+GND
+Text Label 5950 2750 0    50   ~ 0
+TRIGIN
+NoConn ~ 2900 2850
+NoConn ~ 4450 2850
+NoConn ~ 5950 2850
+NoConn ~ 1600 2950
+NoConn ~ 2900 2950
+NoConn ~ 4450 2950
+NoConn ~ 5950 2950
+NoConn ~ 1600 3050
+NoConn ~ 2900 3050
+NoConn ~ 4450 3050
+NoConn ~ 5950 3050
+NoConn ~ 1600 3150
+NoConn ~ 2900 3150
+NoConn ~ 4450 3150
+NoConn ~ 5950 3150
+Text Label 1600 3250 0    50   ~ 0
+B1C11-
+Text Label 2900 3250 0    50   ~ 0
+B1C11+
+Text Label 4450 3250 0    50   ~ 0
+B1C15+
+Text Label 5950 3250 0    50   ~ 0
+B1C15-
+Text Label 1600 3350 0    50   ~ 0
+B1C10-
+Text Label 2900 3350 0    50   ~ 0
+B1C10+
+Text Label 4450 3350 0    50   ~ 0
+B1C14+
+Text Label 5950 3350 0    50   ~ 0
+B1C14-
+Text Label 1600 3450 0    50   ~ 0
+B1C9-
+Text Label 2900 3450 0    50   ~ 0
+B1C9+
+Text Label 4450 3450 0    50   ~ 0
+B1C13+
+Text Label 5950 3450 0    50   ~ 0
+B1C13-
+Text Label 1600 3550 0    50   ~ 0
+B1C8-
+Text Label 2900 3550 0    50   ~ 0
+B1C8+
+Text Label 4450 3550 0    50   ~ 0
+B1C12+
+Text Label 5950 3550 0    50   ~ 0
+B1C12-
+Text Label 1600 3650 0    50   ~ 0
+B1R2-
+Text Label 2900 3650 0    50   ~ 0
+B1R2+
+Text Label 4450 3650 0    50   ~ 0
+B1R3+
+Text Label 5950 3650 0    50   ~ 0
+B1R3-
+Text Label 1600 3750 0    50   ~ 0
+B1C3-
+Text Label 2900 3750 0    50   ~ 0
+B1C3+
+Text Label 4450 3750 0    50   ~ 0
+B1C7+
+Text Label 5950 3750 0    50   ~ 0
+B1C7-
+Text Label 1600 3850 0    50   ~ 0
+B1C2-
+Text Label 2900 3850 0    50   ~ 0
+B1C2+
+Text Label 4450 3850 0    50   ~ 0
+B1C6+
+Text Label 5950 3850 0    50   ~ 0
+B1C6-
+Text Label 1600 3950 0    50   ~ 0
+B1C1-
+Text Label 2900 3950 0    50   ~ 0
+B1C1+
+Text Label 4450 3950 0    50   ~ 0
+B1C5+
+Text Label 5950 3950 0    50   ~ 0
+B1C5-
+Text Label 1600 4050 0    50   ~ 0
+B1C0-
+Text Label 2900 4050 0    50   ~ 0
+B1C0+
+Text Label 4450 4050 0    50   ~ 0
+B1C4+
+Text Label 5950 4050 0    50   ~ 0
+B1C4-
+Text Label 1600 4150 0    50   ~ 0
+B1R0-
+Text Label 2900 4150 0    50   ~ 0
+B1R0+
+Text Label 4450 4150 0    50   ~ 0
+B1R1+
+Text Label 5950 4150 0    50   ~ 0
+B1R1-
+Text Label 1600 4250 0    50   ~ 0
+B0C11-
+Text Label 2900 4250 0    50   ~ 0
+B0C11+
+Text Label 4450 4250 0    50   ~ 0
+B0C15+
+Text Label 5950 4250 0    50   ~ 0
+B0C15-
+Text Label 1600 4350 0    50   ~ 0
+B0C10-
+Text Label 2900 4350 0    50   ~ 0
+B0C10+
+Text Label 4450 4350 0    50   ~ 0
+B0C14+
+Text Label 5950 4350 0    50   ~ 0
+B0C14-
+Text Label 1600 4450 0    50   ~ 0
+B0C9-
+Text Label 2900 4450 0    50   ~ 0
+B0C9+
+Text Label 4450 4450 0    50   ~ 0
+B0C13+
+Text Label 5950 4450 0    50   ~ 0
+B0C13-
+Text Label 1600 4550 0    50   ~ 0
+B0C8-
+Text Label 2900 4550 0    50   ~ 0
+B0C8+
+Text Label 4450 4550 0    50   ~ 0
+B0C12+
+Text Label 5950 4550 0    50   ~ 0
+B0C12-
+Text Label 1600 4650 0    50   ~ 0
+B0R2-
+Text Label 2900 4650 0    50   ~ 0
+B0R2+
+Text Label 4450 4650 0    50   ~ 0
+B0R3+
+Text Label 5950 4650 0    50   ~ 0
+B0R3-
+Text Label 1600 4750 0    50   ~ 0
+B0C3-
+Text Label 2900 4750 0    50   ~ 0
+B0C3+
+Text Label 4450 4750 0    50   ~ 0
+B0C7+
+Text Label 5950 4750 0    50   ~ 0
+B0C7-
+Text Label 1600 4850 0    50   ~ 0
+B0C2-
+Text Label 2900 4850 0    50   ~ 0
+B0C2+
+Text Label 4450 4850 0    50   ~ 0
+B0C6+
+Text Label 5950 4850 0    50   ~ 0
+B0C6-
+Text Label 1600 4950 0    50   ~ 0
+B0C1-
+Text Label 2900 4950 0    50   ~ 0
+B0C1+
+Text Label 4450 4950 0    50   ~ 0
+B0C5+
+Text Label 5950 4950 0    50   ~ 0
+B0C5-
+Text Label 1600 5050 0    50   ~ 0
+B0C0-
+Text Label 2900 5050 0    50   ~ 0
+B0C0+
+Text Label 4450 5050 0    50   ~ 0
+B0C4+
+Text Label 5950 5050 0    50   ~ 0
+B0C4-
+Text Label 1600 5150 0    50   ~ 0
+B0R0-
+Text Label 2900 5150 0    50   ~ 0
+B0R0+
+Text Label 4450 5150 0    50   ~ 0
+B0R1+
+Text Label 5950 5150 0    50   ~ 0
+B0R1-
+$EndSCHEMATC
