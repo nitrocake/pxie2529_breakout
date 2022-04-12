@@ -14,231 +14,437 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L spels:connector-25x4 J1
-U 4 1 62548BC7
-P 7850 2250
-F 0 "J1" H 7808 3675 50  0000 C CNN
-F 1 "connector-25x4" H 7750 3600 50  0001 C CNN
-F 2 "spels:AMP-HDI-100-Female" H 7808 3584 50  0000 C CNN
-F 3 "" H 7750 3650 50  0001 C CNN
-	4    7850 2250
+L Connector_Generic:Conn_02x25_Odd_Even J2
+U 1 1 6255532D
+P 3400 6100
+F 0 "J2" H 3450 7517 50  0000 C CNN
+F 1 "Conn_02x25_Odd_Even" H 3450 7426 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x25_P2.54mm_Latch12.0mm_Vertical" H 3400 6100 50  0001 C CNN
+F 3 "~" H 3400 6100 50  0001 C CNN
+	1    3400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x25_Odd_Even J3
+U 1 1 6255AC37
+P 4950 6100
+F 0 "J3" H 5000 7517 50  0000 C CNN
+F 1 "Conn_02x25_Odd_Even" H 5000 7426 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x25_P2.54mm_Latch12.0mm_Vertical" H 4950 6100 50  0001 C CNN
+F 3 "~" H 4950 6100 50  0001 C CNN
+	1    4950 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L spels:connector-25x4 J1
-U 3 1 6254AC3D
+U 4 1 62548BC7
 P 6350 2250
 F 0 "J1" H 6308 3675 50  0000 C CNN
 F 1 "connector-25x4" H 6250 3600 50  0001 C CNN
 F 2 "spels:AMP-HDI-100-Female" H 6308 3584 50  0000 C CNN
 F 3 "" H 6250 3650 50  0001 C CNN
-	3    6350 2250
+	4    6350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L spels:connector-25x4 J1
+U 3 1 6254AC3D
+P 4850 2250
+F 0 "J1" H 4808 3675 50  0000 C CNN
+F 1 "connector-25x4" H 4750 3600 50  0001 C CNN
+F 2 "spels:AMP-HDI-100-Female" H 4808 3584 50  0000 C CNN
+F 3 "" H 4750 3650 50  0001 C CNN
+	3    4850 2250
+	1    0    0    -1  
+$EndComp
+Text Label 5050 1050 0    50   ~ 0
+GND
+Text Label 6550 1050 0    50   ~ 0
+TRIGIN
+NoConn ~ 5050 1150
+NoConn ~ 6550 1150
+NoConn ~ 5050 1250
+NoConn ~ 6550 1250
+NoConn ~ 5050 1350
+NoConn ~ 6550 1350
+NoConn ~ 5050 1450
+NoConn ~ 6550 1450
+Text Label 5050 1550 0    50   ~ 0
+B1C15+
+Text Label 6550 1550 0    50   ~ 0
+B1C15-
+Text Label 5050 1650 0    50   ~ 0
+B1C14+
+Text Label 6550 1650 0    50   ~ 0
+B1C14-
+Text Label 5050 1750 0    50   ~ 0
+B1C13+
+Text Label 6550 1750 0    50   ~ 0
+B1C13-
+Text Label 5050 1850 0    50   ~ 0
+B1C12+
+Text Label 6550 1850 0    50   ~ 0
+B1C12-
+Text Label 5050 1950 0    50   ~ 0
+B1R3+
+Text Label 6550 1950 0    50   ~ 0
+B1R3-
+Text Label 5050 2050 0    50   ~ 0
+B1C7+
+Text Label 6550 2050 0    50   ~ 0
+B1C7-
+Text Label 5050 2150 0    50   ~ 0
+B1C6+
+Text Label 6550 2150 0    50   ~ 0
+B1C6-
+Text Label 5050 2250 0    50   ~ 0
+B1C5+
+Text Label 6550 2250 0    50   ~ 0
+B1C5-
+Text Label 5050 2350 0    50   ~ 0
+B1C4+
+Text Label 6550 2350 0    50   ~ 0
+B1C4-
+Text Label 5050 2450 0    50   ~ 0
+B1R1+
+Text Label 6550 2450 0    50   ~ 0
+B1R1-
+Text Label 5050 2550 0    50   ~ 0
+B0C15+
+Text Label 6550 2550 0    50   ~ 0
+B0C15-
+Text Label 5050 2650 0    50   ~ 0
+B0C14+
+Text Label 6550 2650 0    50   ~ 0
+B0C14-
+Text Label 5050 2750 0    50   ~ 0
+B0C13+
+Text Label 6550 2750 0    50   ~ 0
+B0C13-
+Text Label 5050 2850 0    50   ~ 0
+B0C12+
+Text Label 6550 2850 0    50   ~ 0
+B0C12-
+Text Label 5050 2950 0    50   ~ 0
+B0R3+
+Text Label 6550 2950 0    50   ~ 0
+B0R3-
+Text Label 5050 3050 0    50   ~ 0
+B0C7+
+Text Label 6550 3050 0    50   ~ 0
+B0C7-
+Text Label 5050 3150 0    50   ~ 0
+B0C6+
+Text Label 6550 3150 0    50   ~ 0
+B0C6-
+Text Label 5050 3250 0    50   ~ 0
+B0C5+
+Text Label 6550 3250 0    50   ~ 0
+B0C5-
+Text Label 5050 3350 0    50   ~ 0
+B0C4+
+Text Label 6550 3350 0    50   ~ 0
+B0C4-
+Text Label 5050 3450 0    50   ~ 0
+B0R1+
+Text Label 6550 3450 0    50   ~ 0
+B0R1-
+Text Label 3500 3450 0    50   ~ 0
+B0R0+
+Text Label 2200 3450 0    50   ~ 0
+B0R0-
+Text Label 3500 3350 0    50   ~ 0
+B0C0+
+Text Label 2200 3350 0    50   ~ 0
+B0C0-
+Text Label 3500 3250 0    50   ~ 0
+B0C1+
+Text Label 2200 3250 0    50   ~ 0
+B0C1-
+Text Label 3500 3150 0    50   ~ 0
+B0C2+
+Text Label 2200 3150 0    50   ~ 0
+B0C2-
+Text Label 3500 3050 0    50   ~ 0
+B0C3+
+Text Label 2200 3050 0    50   ~ 0
+B0C3-
+Text Label 3500 2950 0    50   ~ 0
+B0R2+
+Text Label 2200 2950 0    50   ~ 0
+B0R2-
+Text Label 3500 2850 0    50   ~ 0
+B0C8+
+Text Label 2200 2850 0    50   ~ 0
+B0C8-
+Text Label 3500 2750 0    50   ~ 0
+B0C9+
+Text Label 2200 2750 0    50   ~ 0
+B0C9-
+Text Label 3500 2650 0    50   ~ 0
+B0C10+
+Text Label 2200 2650 0    50   ~ 0
+B0C10-
+Text Label 3500 2550 0    50   ~ 0
+B0C11+
+Text Label 2200 2550 0    50   ~ 0
+B0C11-
+Text Label 3500 2450 0    50   ~ 0
+B1R0+
+Text Label 2200 2450 0    50   ~ 0
+B1R0-
+Text Label 3500 2350 0    50   ~ 0
+B1C0+
+Text Label 2200 2350 0    50   ~ 0
+B1C0-
+Text Label 3500 2250 0    50   ~ 0
+B1C1+
+Text Label 2200 2250 0    50   ~ 0
+B1C1-
+Text Label 3500 2150 0    50   ~ 0
+B1C2+
+Text Label 2200 2150 0    50   ~ 0
+B1C2-
+Text Label 3500 2050 0    50   ~ 0
+B1C3+
+Text Label 2200 2050 0    50   ~ 0
+B1C3-
+Text Label 3500 1950 0    50   ~ 0
+B1R2+
+Text Label 2200 1950 0    50   ~ 0
+B1R2-
+Text Label 3500 1850 0    50   ~ 0
+B1C8+
+Text Label 2200 1850 0    50   ~ 0
+B1C8-
+Text Label 3500 1750 0    50   ~ 0
+B1C9+
+Text Label 2200 1750 0    50   ~ 0
+B1C9-
+Text Label 3500 1650 0    50   ~ 0
+B1C10+
+Text Label 2200 1650 0    50   ~ 0
+B1C10-
+Text Label 3500 1550 0    50   ~ 0
+B1C11+
+Text Label 2200 1550 0    50   ~ 0
+B1C11-
+NoConn ~ 3500 1450
+NoConn ~ 2200 1450
+NoConn ~ 3500 1350
+NoConn ~ 2200 1350
+NoConn ~ 3500 1250
+NoConn ~ 2200 1250
+NoConn ~ 3500 1150
+Text Label 3500 1050 0    50   ~ 0
+GND
+NoConn ~ 2200 1150
+Text Label 2200 1050 0    50   ~ 0
+TRIGOUT
+$Comp
+L spels:connector-25x4 J1
+U 1 1 6254D5A7
+P 2000 2250
+F 0 "J1" H 1958 3675 50  0000 C CNN
+F 1 "connector-25x4" H 1900 3600 50  0001 C CNN
+F 2 "spels:AMP-HDI-100-Female" H 1958 3584 50  0000 C CNN
+F 3 "" H 1900 3650 50  0001 C CNN
+	1    2000 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L spels:connector-25x4 J1
 U 2 1 6254B205
-P 4800 2250
-F 0 "J1" H 4758 3675 50  0000 C CNN
-F 1 "connector-25x4" H 4700 3600 50  0001 C CNN
-F 2 "spels:AMP-HDI-100-Female" H 4758 3584 50  0000 C CNN
-F 3 "" H 4700 3650 50  0001 C CNN
-	2    4800 2250
+P 3300 2250
+F 0 "J1" H 3258 3675 50  0000 C CNN
+F 1 "connector-25x4" H 3200 3600 50  0001 C CNN
+F 2 "spels:AMP-HDI-100-Female" H 3258 3584 50  0000 C CNN
+F 3 "" H 3200 3650 50  0001 C CNN
+	2    3300 2250
 	1    0    0    -1  
 $EndComp
-$Comp
-L spels:connector-25x4 J1
-U 1 1 6254D5A7
-P 3500 2250
-F 0 "J1" H 3458 3675 50  0000 C CNN
-F 1 "connector-25x4" H 3400 3600 50  0001 C CNN
-F 2 "spels:AMP-HDI-100-Female" H 3458 3584 50  0000 C CNN
-F 3 "" H 3400 3650 50  0001 C CNN
-	1    3500 2250
-	1    0    0    -1  
-$EndComp
-Text Label 3700 1050 0    50   ~ 0
-TRIGOUT
-NoConn ~ 3700 1150
-Text Label 5000 1050 0    50   ~ 0
-GND
-Text Label 6550 1050 0    50   ~ 0
-GND
-Text Label 8050 1050 0    50   ~ 0
-TRIGIN
-NoConn ~ 5000 1150
-NoConn ~ 6550 1150
-NoConn ~ 8050 1150
-NoConn ~ 3700 1250
-NoConn ~ 5000 1250
-NoConn ~ 6550 1250
-NoConn ~ 8050 1250
-NoConn ~ 3700 1350
-NoConn ~ 5000 1350
-NoConn ~ 6550 1350
-NoConn ~ 8050 1350
-NoConn ~ 3700 1450
-NoConn ~ 5000 1450
-NoConn ~ 6550 1450
-NoConn ~ 8050 1450
-Text Label 3700 1550 0    50   ~ 0
-B1C11-
-Text Label 5000 1550 0    50   ~ 0
-B1C11+
-Text Label 6550 1550 0    50   ~ 0
-B1C15+
-Text Label 8050 1550 0    50   ~ 0
-B1C15-
-Text Label 3700 1650 0    50   ~ 0
-B1C10-
-Text Label 5000 1650 0    50   ~ 0
-B1C10+
-Text Label 6550 1650 0    50   ~ 0
-B1C14+
-Text Label 8050 1650 0    50   ~ 0
-B1C14-
-Text Label 3700 1750 0    50   ~ 0
-B1C9-
-Text Label 5000 1750 0    50   ~ 0
-B1C9+
-Text Label 6550 1750 0    50   ~ 0
-B1C13+
-Text Label 8050 1750 0    50   ~ 0
-B1C13-
-Text Label 3700 1850 0    50   ~ 0
-B1C8-
-Text Label 5000 1850 0    50   ~ 0
-B1C8+
-Text Label 6550 1850 0    50   ~ 0
-B1C12+
-Text Label 8050 1850 0    50   ~ 0
-B1C12-
-Text Label 3700 1950 0    50   ~ 0
-B1R2-
-Text Label 5000 1950 0    50   ~ 0
-B1R2+
-Text Label 6550 1950 0    50   ~ 0
-B1R3+
-Text Label 8050 1950 0    50   ~ 0
-B1R3-
-Text Label 3700 2050 0    50   ~ 0
-B1C3-
-Text Label 5000 2050 0    50   ~ 0
-B1C3+
-Text Label 6550 2050 0    50   ~ 0
-B1C7+
-Text Label 8050 2050 0    50   ~ 0
-B1C7-
-Text Label 3700 2150 0    50   ~ 0
-B1C2-
-Text Label 5000 2150 0    50   ~ 0
-B1C2+
-Text Label 6550 2150 0    50   ~ 0
-B1C6+
-Text Label 8050 2150 0    50   ~ 0
-B1C6-
-Text Label 3700 2250 0    50   ~ 0
-B1C1-
-Text Label 5000 2250 0    50   ~ 0
-B1C1+
-Text Label 6550 2250 0    50   ~ 0
-B1C5+
-Text Label 8050 2250 0    50   ~ 0
-B1C5-
-Text Label 3700 2350 0    50   ~ 0
-B1C0-
-Text Label 5000 2350 0    50   ~ 0
-B1C0+
-Text Label 6550 2350 0    50   ~ 0
-B1C4+
-Text Label 8050 2350 0    50   ~ 0
-B1C4-
-Text Label 3700 2450 0    50   ~ 0
-B1R0-
-Text Label 5000 2450 0    50   ~ 0
-B1R0+
-Text Label 6550 2450 0    50   ~ 0
-B1R1+
-Text Label 8050 2450 0    50   ~ 0
-B1R1-
-Text Label 3700 2550 0    50   ~ 0
-B0C11-
-Text Label 5000 2550 0    50   ~ 0
-B0C11+
-Text Label 6550 2550 0    50   ~ 0
-B0C15+
-Text Label 8050 2550 0    50   ~ 0
-B0C15-
-Text Label 3700 2650 0    50   ~ 0
-B0C10-
-Text Label 5000 2650 0    50   ~ 0
-B0C10+
-Text Label 6550 2650 0    50   ~ 0
-B0C14+
-Text Label 8050 2650 0    50   ~ 0
-B0C14-
-Text Label 3700 2750 0    50   ~ 0
-B0C9-
-Text Label 5000 2750 0    50   ~ 0
-B0C9+
-Text Label 6550 2750 0    50   ~ 0
-B0C13+
-Text Label 8050 2750 0    50   ~ 0
-B0C13-
-Text Label 3700 2850 0    50   ~ 0
-B0C8-
-Text Label 5000 2850 0    50   ~ 0
-B0C8+
-Text Label 6550 2850 0    50   ~ 0
-B0C12+
-Text Label 8050 2850 0    50   ~ 0
-B0C12-
-Text Label 3700 2950 0    50   ~ 0
-B0R2-
-Text Label 5000 2950 0    50   ~ 0
-B0R2+
-Text Label 6550 2950 0    50   ~ 0
-B0R3+
-Text Label 8050 2950 0    50   ~ 0
-B0R3-
-Text Label 3700 3050 0    50   ~ 0
-B0C3-
-Text Label 5000 3050 0    50   ~ 0
-B0C3+
-Text Label 6550 3050 0    50   ~ 0
-B0C7+
-Text Label 8050 3050 0    50   ~ 0
-B0C7-
-Text Label 3700 3150 0    50   ~ 0
-B0C2-
-Text Label 5000 3150 0    50   ~ 0
-B0C2+
-Text Label 6550 3150 0    50   ~ 0
-B0C6+
-Text Label 8050 3150 0    50   ~ 0
-B0C6-
-Text Label 3700 3250 0    50   ~ 0
-B0C1-
-Text Label 5000 3250 0    50   ~ 0
-B0C1+
-Text Label 6550 3250 0    50   ~ 0
-B0C5+
-Text Label 8050 3250 0    50   ~ 0
-B0C5-
-Text Label 3700 3350 0    50   ~ 0
-B0C0-
-Text Label 5000 3350 0    50   ~ 0
-B0C0+
-Text Label 6550 3350 0    50   ~ 0
-B0C4+
-Text Label 8050 3350 0    50   ~ 0
-B0C4-
-Text Label 3700 3450 0    50   ~ 0
-B0R0-
-Text Label 5000 3450 0    50   ~ 0
-B0R0+
-Text Label 6550 3450 0    50   ~ 0
+Text Label 3200 7300 2    50   ~ 0
 B0R1+
-Text Label 8050 3450 0    50   ~ 0
+Text Label 3700 7300 0    50   ~ 0
 B0R1-
+Text Label 4750 7300 2    50   ~ 0
+B0R0-
+Text Label 5250 7300 0    50   ~ 0
+B0R0+
+Text Label 4750 7100 2    50   ~ 0
+B0C1-
+Text Label 3700 7100 0    50   ~ 0
+B0C5-
+Text Label 3200 7100 2    50   ~ 0
+B0C5+
+Text Label 5250 7200 0    50   ~ 0
+B0C0+
+Text Label 4750 7200 2    50   ~ 0
+B0C0-
+Text Label 3200 7200 2    50   ~ 0
+B0C4+
+Text Label 3700 7200 0    50   ~ 0
+B0C4-
+Text Label 4750 7000 2    50   ~ 0
+B0C2-
+Text Label 5250 7000 0    50   ~ 0
+B0C2+
+Text Label 3700 7000 0    50   ~ 0
+B0C6-
+Text Label 4750 6900 2    50   ~ 0
+B0C3-
+Text Label 5250 6900 0    50   ~ 0
+B0C3+
+Text Label 3700 6900 0    50   ~ 0
+B0C7-
+Text Label 5250 6800 0    50   ~ 0
+B0R2+
+Text Label 4750 6800 2    50   ~ 0
+B0R2-
+Text Label 3700 6800 0    50   ~ 0
+B0R3-
+Text Label 5250 6700 0    50   ~ 0
+B0C8+
+Text Label 4750 6700 2    50   ~ 0
+B0C8-
+Text Label 3700 6700 0    50   ~ 0
+B0C12-
+Text Label 5250 6600 0    50   ~ 0
+B0C9+
+Text Label 4750 6600 2    50   ~ 0
+B0C9-
+Text Label 3700 6600 0    50   ~ 0
+B0C13-
+Text Label 5250 6500 0    50   ~ 0
+B0C10+
+Text Label 4750 6500 2    50   ~ 0
+B0C10-
+Text Label 3700 6500 0    50   ~ 0
+B0C14-
+Text Label 5250 6400 0    50   ~ 0
+B0C11+
+Text Label 4750 6400 2    50   ~ 0
+B0C11-
+Text Label 3700 6400 0    50   ~ 0
+B0C15-
+Text Label 5250 6300 0    50   ~ 0
+B1R0+
+Text Label 4750 6300 2    50   ~ 0
+B1R0-
+Text Label 3700 6300 0    50   ~ 0
+B1R1-
+Text Label 5250 6200 0    50   ~ 0
+B1C0+
+Text Label 4750 6200 2    50   ~ 0
+B1C0-
+Text Label 3700 6200 0    50   ~ 0
+B1C4-
+Text Label 5250 6100 0    50   ~ 0
+B1C1+
+Text Label 4750 6100 2    50   ~ 0
+B1C1-
+Text Label 3700 6100 0    50   ~ 0
+B1C5-
+Text Label 5250 6000 0    50   ~ 0
+B1C2+
+Text Label 4750 6000 2    50   ~ 0
+B1C2-
+Text Label 3700 6000 0    50   ~ 0
+B1C6-
+Text Label 5250 5900 0    50   ~ 0
+B1C3+
+Text Label 4750 5900 2    50   ~ 0
+B1C3-
+Text Label 3700 5900 0    50   ~ 0
+B1C7-
+Text Label 5250 5800 0    50   ~ 0
+B1R2+
+Text Label 4750 5800 2    50   ~ 0
+B1R2-
+Text Label 3700 5800 0    50   ~ 0
+B1R3-
+Text Label 5250 5600 0    50   ~ 0
+B1C9+
+Text Label 4750 5600 2    50   ~ 0
+B1C9-
+Text Label 3700 5600 0    50   ~ 0
+B1C13-
+Text Label 5250 5500 0    50   ~ 0
+B1C10+
+Text Label 4750 5500 2    50   ~ 0
+B1C10-
+Text Label 3700 5500 0    50   ~ 0
+B1C14-
+Text Label 5250 5400 0    50   ~ 0
+B1C11+
+Text Label 4750 5400 2    50   ~ 0
+B1C11-
+Text Label 3700 5400 0    50   ~ 0
+B1C15-
+NoConn ~ 5250 5300
+NoConn ~ 5250 5200
+NoConn ~ 5250 5100
+Text Label 3700 5700 0    50   ~ 0
+B1C12-
+Text Label 5250 5700 0    50   ~ 0
+B1C8+
+Text Label 4750 5700 2    50   ~ 0
+B1C8-
+NoConn ~ 5250 5000
+NoConn ~ 4750 5300
+NoConn ~ 4750 5200
+NoConn ~ 4750 5100
+NoConn ~ 4750 5000
+NoConn ~ 3700 5300
+NoConn ~ 3700 5200
+NoConn ~ 3700 5100
+NoConn ~ 3700 5000
+NoConn ~ 3200 5000
+NoConn ~ 3200 5100
+NoConn ~ 3200 5200
+NoConn ~ 3200 5300
+Text Label 4750 4900 2    50   ~ 0
+TRIGOUT
+Text Label 3200 4900 2    50   ~ 0
+TRIGIN
+Text Label 3700 4900 0    50   ~ 0
+GND
+Text Label 5250 4900 0    50   ~ 0
+GND
+Text Label 3200 5700 2    50   ~ 0
+B1C12+
+Text Label 3200 5400 2    50   ~ 0
+B1C15+
+Text Label 3200 5500 2    50   ~ 0
+B1C14+
+Text Label 3200 5600 2    50   ~ 0
+B1C13+
+Text Label 3200 5800 2    50   ~ 0
+B1R3+
+Text Label 3200 5900 2    50   ~ 0
+B1C7+
+Text Label 3200 6000 2    50   ~ 0
+B1C6+
+Text Label 3200 6100 2    50   ~ 0
+B1C5+
+Text Label 3200 6200 2    50   ~ 0
+B1C4+
+Text Label 3200 6300 2    50   ~ 0
+B1R1+
+Text Label 3200 6400 2    50   ~ 0
+B0C15+
+Text Label 3200 6500 2    50   ~ 0
+B0C14+
+Text Label 3200 6600 2    50   ~ 0
+B0C13+
+Text Label 3200 6700 2    50   ~ 0
+B0C12+
+Text Label 3200 6800 2    50   ~ 0
+B0R3+
+Text Label 3200 6900 2    50   ~ 0
+B0C7+
+Text Label 3200 7000 2    50   ~ 0
+B0C6+
+Text Label 5250 7100 0    50   ~ 0
+B0C1+
 $EndSCHEMATC
