@@ -16,13 +16,13 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x25_Odd_Even J2
 U 1 1 6255532D
-P 3400 6100
-F 0 "J2" H 3450 7517 50  0000 C CNN
-F 1 "Conn_02x25_Odd_Even" H 3450 7426 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x25_P2.54mm_Latch12.0mm_Vertical" H 3400 6100 50  0001 C CNN
-F 3 "~" H 3400 6100 50  0001 C CNN
-	1    3400 6100
-	1    0    0    -1  
+P 3500 6100
+F 0 "J2" H 3550 7517 50  0000 C CNN
+F 1 "Conn_02x25_Odd_Even" H 3550 7426 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x25_P2.54mm_Latch12.0mm_Vertical" H 3500 6100 50  0001 C CNN
+F 3 "~" H 3500 6100 50  0001 C CNN
+	1    3500 6100
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x25_Odd_Even J3
@@ -271,11 +271,11 @@ Text Label 4750 7300 2    50   ~ 0
 B0R0-
 Text Label 5250 7300 0    50   ~ 0
 B0R0+
-Text Label 3700 7100 0    50   ~ 0
-B0C1-
 Text Label 4750 7100 2    50   ~ 0
+B0C1-
+Text Label 3700 7100 0    50   ~ 0
 B0C5-
-Text Label 5250 7100 0    50   ~ 0
+Text Label 3200 7100 2    50   ~ 0
 B0C5+
 Text Label 5250 7200 0    50   ~ 0
 B0C0+
@@ -368,24 +368,24 @@ B1C9+
 Text Label 4750 5600 2    50   ~ 0
 B1C9-
 Text Label 3700 5600 0    50   ~ 0
-B1C13+
+B1C13-
 Text Label 5250 5500 0    50   ~ 0
 B1C10+
 Text Label 4750 5500 2    50   ~ 0
 B1C10-
 Text Label 3700 5500 0    50   ~ 0
-B1C14+
+B1C14-
 Text Label 5250 5400 0    50   ~ 0
 B1C11+
 Text Label 4750 5400 2    50   ~ 0
 B1C11-
 Text Label 3700 5400 0    50   ~ 0
-B1C15+
+B1C15-
 NoConn ~ 5250 5300
 NoConn ~ 5250 5200
 NoConn ~ 5250 5100
 Text Label 3700 5700 0    50   ~ 0
-B1C12+
+B1C12-
 Text Label 5250 5700 0    50   ~ 0
 B1C8+
 Text Label 4750 5700 2    50   ~ 0
@@ -412,13 +412,13 @@ GND
 Text Label 5250 4900 0    50   ~ 0
 GND
 Text Label 3200 5700 2    50   ~ 0
-B1C12-
+B1C12+
 Text Label 3200 5400 2    50   ~ 0
-B1C15-
+B1C15+
 Text Label 3200 5500 2    50   ~ 0
-B1C14-
+B1C14+
 Text Label 3200 5600 2    50   ~ 0
-B1C13-
+B1C13+
 Text Label 3200 5800 2    50   ~ 0
 B1R3+
 Text Label 3200 5900 2    50   ~ 0
@@ -445,6 +445,6 @@ Text Label 3200 6900 2    50   ~ 0
 B0C7+
 Text Label 3200 7000 2    50   ~ 0
 B0C6+
-Text Label 3200 7100 2    50   ~ 0
+Text Label 5250 7100 0    50   ~ 0
 B0C1+
 $EndSCHEMATC

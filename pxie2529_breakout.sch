@@ -16,24 +16,24 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x25_Odd_Even J2
 U 1 1 6255532D
-P 3400 6100
-F 0 "J2" H 3450 7517 50  0000 C CNN
-F 1 "Conn_02x25_Odd_Even" H 3450 7426 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x25_P2.54mm_Latch12.0mm_Vertical" H 3400 6100 50  0001 C CNN
-F 3 "~" H 3400 6100 50  0001 C CNN
-	1    3400 6100
-	1    0    0    -1  
+P 3500 6100
+F 0 "J2" H 3550 7517 50  0000 C CNN
+F 1 "Conn_02x25_Odd_Even" H 3550 7426 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x25_P2.54mm_Latch12.0mm_Vertical" H 3500 6100 50  0001 C CNN
+F 3 "~" H 3500 6100 50  0001 C CNN
+	1    3500 6100
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x25_Odd_Even J3
 U 1 1 6255AC37
-P 4950 6100
-F 0 "J3" H 5000 7517 50  0000 C CNN
-F 1 "Conn_02x25_Odd_Even" H 5000 7426 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x25_P2.54mm_Latch12.0mm_Vertical" H 4950 6100 50  0001 C CNN
-F 3 "~" H 4950 6100 50  0001 C CNN
-	1    4950 6100
-	1    0    0    -1  
+P 5050 6100
+F 0 "J3" H 5100 7517 50  0000 C CNN
+F 1 "Conn_02x25_Odd_Even" H 5100 7426 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x25_P2.54mm_Latch12.0mm_Vertical" H 5050 6100 50  0001 C CNN
+F 3 "~" H 5050 6100 50  0001 C CNN
+	1    5050 6100
+	-1   0    0    1   
 $EndComp
 $Comp
 L spels:connector-25x4 J1
